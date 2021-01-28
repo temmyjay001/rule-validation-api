@@ -1,4 +1,4 @@
-const { validate_rule } = require("./src/utils/payloadCheck");
+const { validate_rule } = require("./src/actions/payload");
 const { checkpayload } = require("./src/middleware/ValidatePayload");
 const express = require("express");
 const app = express();
